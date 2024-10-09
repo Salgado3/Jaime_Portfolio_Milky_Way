@@ -1,11 +1,11 @@
 ---
-title: "Attorney Website - Freelancing"
+title: "Freelance (WIP)"
 description: "Pending Contract 🙇🏽‍♂️"
 image:
-  url: "/GitHub.webp"
+  url: "/laptop.jpg"
   alt: "GitHub wallpaper"
 worksImage1:
-  url: "/image-1.webp"
+  url: "/laptop.jpg"
   alt: "first image of your project."
 platform: Web
 stack: Astro, JavaScript

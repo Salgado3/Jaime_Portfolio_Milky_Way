@@ -2,7 +2,7 @@
 title: "Tater Jots V2"
 description: "Work in progess. Coming early 2025"
 image:
-  url: "/success_tj.png"
+  url: "/tjV2.png"
   alt: "Tater Jots alternate logo"
 worksImage1:
   url: "/taterV2.png"

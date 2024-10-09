@@ -3,7 +3,7 @@
   --background: #000000f7;
   --background-light: #fdebf3e7;
   --button: #78c2ad;
-  --text: #fdebf3;
+  --text: #dbdce8;
   --text-light: #1e1e2e;
   --text-link: #78c2ad;
   --underline: #375a7f;
@@ -102,7 +102,7 @@ li {
 
 /* Badge */
 .badge {
-  background-color: #584966;
+  background-color: #7197b4;
   color: var(--text);
   border-radius: 6px;
   font-family: var(--body);
