@@ -1,5 +1,7 @@
 # 🌌 Milky-Way
 
+Credits to [Tristen Tomczak](https://github.com/ttomczak3) for the template.
+
 <p align="center">
   <img align="center" alt="Astro" src="https://storage.googleapis.com/dev-portal-bucket/qh7sxskkyty67x3fznww5mwv4pxq59dk2aax51.webp"/>
 </p>
