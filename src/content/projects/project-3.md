@@ -1,15 +1,15 @@
 ---
-title: 'Project 3'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: "Tater Jots V2"
+description: "Work in progess. Coming early 2025"
 image:
-    url: '/GitHub.webp'
-    alt: 'GitHub wallpaper'
+  url: "/success_tj.png"
+  alt: "Tater Jots alternate logo"
 worksImage1:
-    url: '/image-1.webp'
-    alt: 'first image of your project.'
+  url: "/taterV2.png"
+  alt: "first image of your project."
 worksImage2:
-    url: '/image-2.webp'
-    alt: 'second image of your project.'
+  url: ""
+  alt: ""
 platform: Web
 stack: Astro, JavaScript
 website: https://astro-milky-way.netlify.app/

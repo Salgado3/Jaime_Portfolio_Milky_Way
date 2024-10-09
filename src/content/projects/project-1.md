@@ -1,19 +1,29 @@
 ---
-title: 'Project 1'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: "Tater Jots"
+description: "Tater Jots is a video note-taking app for online learners, allowing users to create chapters in real-time and revisit them later. Click to learn more"
 image:
-    url: '/GitHub.webp'
-    alt: 'GitHub wallpaper'
+  url: "/tjLogo.png"
+  alt: "Tater jots logo"
 worksImage1:
-    url: '/image-1.webp'
-    alt: 'first image of your project.'
+  url: "/tjInAction.png"
+  alt: "image displaying youtube with extention in action. displays dropdown from browser extension bar"
 worksImage2:
-    url: '/image-2.webp'
-    alt: 'second image of your project.'
+  url: "/tjInAction2.png"
+  alt: "image displaying youtube with extention in action. displays dropdown and floating input box with groups expanded"
 platform: Web
-stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+stack: CSS, Javascript, React, webpack, Auto-Animate, React DnD, and a little bit of elbow grease.
+website: https://www.taterjots.com/
+github: https://github.com/Salgado3
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+Tater Jots is a Chrome extension designed to enhance your YouTube learning experience. Take real-time notes and set custom chapters on videos and tutorials, allowing you to instantly revisit key moments without scrubbing through the timeline.
+
+### Key Features
+
+- **Real-Time Note-Taking:** Capture insights as you watch.
+- **Custom Timestamps:** Mark important points for easy access later.
+- **Organize Notes:** Create groups for efficient learning.
+- **Search Functionality:** Quickly find specific notes.
+- **Sorting Options:** Sort by alphabet, date modified, or date added.
+
+No sign-in required—just download, pin, and start learning effectively. Say goodbye to video frustration and hello to streamlined knowledge acquisition!

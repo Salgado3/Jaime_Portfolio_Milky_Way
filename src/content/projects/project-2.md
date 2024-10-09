@@ -1,19 +1,25 @@
 ---
-title: 'Project 2'
-description: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci'
+title: "Pueblos Magicos"
+description: "Discover Mexico`s Hidden Gems! Explore Pueblos Mágicos de México, an interactive web app that features a map and detailed info on enchanting towns. Uncover the magic today!"
 image:
-    url: '/GitHub.webp'
-    alt: 'GitHub wallpaper'
+  url: "/mexicoMiAmor.JPG"
+  alt: "Photo of red wall with cactus in front with the words `Mexico, my live` written in neon Pueblos Magicos de Mexico"
 worksImage1:
-    url: '/image-1.webp'
-    alt: 'first image of your project.'
+  url: "/pueblosImg.png"
+  alt: "first image of your project."
 worksImage2:
-    url: '/image-2.webp'
-    alt: 'second image of your project.'
+  url: "/pueblosImg2.png"
+  alt: "second image of your project."
 platform: Web
-stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+stack: EJS, CSS, JavaScript, Node.js, Express, MongoDB, Mapbox
+website: https://pueblosmagicos.onrender.com/
+github: https://github.com/Salgado3/Pueblos
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+### Los Pueblos Mágicos de México
+
+If website doesn't load initially. Refresh. Server is cold 🙇🏽‍♂️. . .
+
+Ever thought about visiting Mexico? Many envision Cancun or Tijuana, but the country boasts a rich history and diverse landscapes. The **Pueblos Mágicos** are magical towns scattered throughout Mexico, each with its unique charm.
+
+I've created a full-stack web application that highlights the true beauty of these towns, encouraging you to explore and discover their wonders. I hope you enjoy this journey and happy exploring!
