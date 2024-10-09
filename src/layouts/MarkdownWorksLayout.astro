@@ -16,7 +16,7 @@ const { frontmatter } = Astro.props;
     </ul>
     <div class="center">
         <img class="pro-img" width={!frontmatter.worksImage1.url.includes("/taterV2.png")  ? "500px" : "300px"} height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} />
-       {frontmatter.worksImage2.url &&  <img class="pro-img" width="500px" height="281" src={frontmatter.worksImage2.url} alt={frontmatter.worksImage2.alt} />}
+       {frontmatter?.worksImage2?.url &&  <img class="pro-img" width="500px" height="281" src={frontmatter.worksImage2.url} alt={frontmatter.worksImage2.alt} />}
     </div>
 </BaseLayout>
 
