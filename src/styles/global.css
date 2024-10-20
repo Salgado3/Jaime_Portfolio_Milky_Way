@@ -1,7 +1,7 @@
 /* Global styles */
 :root {
   --background: #000000f7;
-  --background-light: #fdebf3e7;
+  --background-light: #ffffff;
   --button: #78c2ad;
   --text: #dbdce8;
   --text-light: #1e1e2e;
@@ -41,6 +41,7 @@ h2 {
   text-underline-offset: 6px;
   font-size: 2.1rem;
   margin-bottom: 0;
+  margin-top: 2rem;
 }
 
 p {
