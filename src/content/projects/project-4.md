@@ -3,14 +3,14 @@ title: "Freelance (WIP)"
 description: "Pending Contract 🙇🏽‍♂️"
 image:
   url: "/laptop.jpg"
-  alt: "GitHub wallpaper"
+  alt: "picture of a laptop and notebook with a pen"
 worksImage1:
   url: "/laptop.jpg"
-  alt: "first image of your project."
+  alt: ""
 platform: Web
 stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+website: N/A
+github: N/A
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+This project fell through. I'll keep this page up though. Freelancing is a difficult endeavor. Will update if another project comes along 👍
