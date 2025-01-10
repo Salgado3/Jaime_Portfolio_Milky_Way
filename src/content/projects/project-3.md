@@ -1,5 +1,5 @@
 ---
-title: "Tater Jots V2"
+title: "Taterjots V2"
 description: "Work in progess. Coming early 2025"
 image:
   url: "/tjV2.png"
@@ -11,9 +11,9 @@ worksImage2:
   url: ""
   alt: ""
 platform: Web
-stack: Astro, JavaScript
-website: https://astro-milky-way.netlify.app/
-github: https://github.com/ttomczak3/Milky-Way
+stack: WXT, React, mantine, javascript, supabase, elbow grease
+website: https://www.taterjots.com/ (V2 WIP)
+github: N/A
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras faucibus a tortor at molestie. Sed pellentesque leo auctor, auctor lorem nec, venenatis risus. Vivamus commodo ipsum vitae orci finibus, vel porta nunc viverra. In hac habitasse platea dictumst. Nunc pretium, ligula ultricies consequat sollicitudin, enim ex ullamcorper nisl.
+Rebuild of Taterjots. Adding new features to already existing list including external database, user setting customizations, quick notes leveraging video transcripts, and more. (I took some time off to prep for interviews, but should be back it this... most of the time)

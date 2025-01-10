@@ -22,7 +22,7 @@ const projectsCollection = defineCollection({
     platform: z.string(),
     stack: z.string(),
     website: z.string().nullable(),
-    github: z.string().nullable(),
+    github: z.string().nullable().optional(),
   }),
 });
 export const collections = {
