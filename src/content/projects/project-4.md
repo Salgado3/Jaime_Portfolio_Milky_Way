@@ -13,4 +13,4 @@ website: N/A
 github: N/A
 ---
 
-This project fell through. I'll keep this page up though. Freelancing is a difficult endeavor. Will update if another project comes along 👍
+~~This project fell through~~. Annnnd we are back. New project in the works 👍. I'll keep this page up though. Freelancing is a difficult endeavor.
