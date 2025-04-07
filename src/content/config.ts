@@ -18,13 +18,27 @@ const projectsCollection = defineCollection({
         url: z.string(),
         alt: z.string(),
       })
-      .optional(), // Make it optional,
+      .optional(),
     platform: z.string(),
     stack: z.string(),
     website: z.string().nullable(),
-    github: z.string().nullable().optional(),
+    github: z
+      .object({
+        label: z.string(),
+        url: z.string().url(),
+      })
+      .nullable()
+      .optional(),
+    chrome: z
+      .object({
+        label: z.string(),
+        url: z.string().url(),
+      })
+      .nullable()
+      .optional(),
   }),
 });
+
 export const collections = {
   projects: projectsCollection,
 };

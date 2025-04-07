@@ -13,7 +13,10 @@ worksImage2:
 platform: Web
 stack: CSS, Javascript, React, webpack, Auto-Animate, React DnD, and a little bit of elbow grease.
 website: https://www.taterjots.com/
-github: https://github.com/Salgado3
+
+chrome:
+  label: View on Chrome
+  url: https://chromewebstore.google.com/detail/tater-jots/blhbaoljldmcdalcofbkckmpjfjfdofi
 ---
 
 Tater Jots is a Chrome extension designed to enhance your YouTube learning experience. Take real-time notes and set custom chapters on videos and tutorials, allowing you to instantly revisit key moments without scrubbing through the timeline.

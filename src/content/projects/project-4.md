@@ -10,7 +10,6 @@ worksImage1:
 platform: Web
 stack: Astro, JavaScript
 website: N/A
-github: N/A
 ---
 
 ~~This project fell through~~. Annnnd we are back. New project in the works 👍. I'll keep this page up though. Freelancing is a difficult endeavor.

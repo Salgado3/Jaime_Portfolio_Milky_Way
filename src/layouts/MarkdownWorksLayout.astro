@@ -9,7 +9,24 @@ const { frontmatter } = Astro.props;
         <li><span class="badge badge--item">PLATFORM</span>{frontmatter.platform}</li>
         <li><span class="badge badge--item">STACK</span>{frontmatter.stack}</li>
         <li><span class="badge badge--item">WEBSITE</span><a class="badge__link" href={frontmatter.website} target="_blank">{frontmatter.website}</a></li>
-        <li><span class="badge badge--item">GITHUB</span><a class="badge__link" href={frontmatter.github} target="_blank">{frontmatter.github}</a></li>
+        {frontmatter.github?.url && (
+            <li>
+              <span class="badge badge--item">GITHUB</span>
+              <a class="badge__link" href={frontmatter.github.url} target="_blank">
+                {frontmatter.github.label}
+              </a>
+            </li>
+          )}
+          
+          {frontmatter.chrome?.url && (
+            <li>
+              <span class="badge badge--item">CHROME</span>
+              <a class="badge__link" href={frontmatter.chrome.url} target="_blank">
+                {frontmatter.chrome.label}
+              </a>
+            </li>
+          )}
+          
     </ul>
     <div class="center">
         <img class="pro-img" width={!frontmatter.worksImage1.url.includes("/taterV2.png")  ? "500px" : "300px"} height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} />
