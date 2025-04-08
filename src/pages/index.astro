@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
 const pageTitle = "Welcome to my portfolio";
 ---
 <Layout pageTitle={pageTitle}>
@@ -7,23 +8,27 @@ const pageTitle = "Welcome to my portfolio";
     <span class="badge">Software Developer</span>
     <h2>About</h2>
     <p>
-    I’m a passionate front-end developer dedicated to crafting seamless and engaging user experiences. With a solid foundation in HTML, CSS, and JavaScript, I specialize in transforming ideas into visually stunning and intuitive web applications. Currently, I’m focused on projects that make learning quick and easy, blending functionality with an enjoyable user experience. Let’s collaborate and build something amazing together!
-    </p>
+Hi, I’m a front-end developer focused on building performant, accessible, and user-friendly web applications. With a solid foundation in HTML, CSS, and JavaScript—and experience using frameworks like React, Astro, and testing tools like Playwright—I turn product requirements into clean, maintainable, production-ready code.
+
+I’ve contributed to large-scale, customer-facing features and built independent tools like Tater Jots, a Chrome extension that enhances online learning through real-time note-taking.
+
+I thrive in collaborative environments, communicate well with cross-functional teams, and take pride in writing thoughtful, scalable code.
+Let’s connect and build something great together.    </p>
     <div class="center">
         <a href="/works/">
-            <button class="btn">My portfolio</button>
+            <button class="btn">See my work</button>
         </a>
     </div>
     <h2>Skills</h2>
     <div class="skills center">
-        <img class="skills__img" width="46" height="46" title="CSS" alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
-        <img class="skills__img" width="46" height="46" title="HTML"  alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
-        <img class="skills__img" width="46" height="46" title="JavaScript" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
-        <img class="skills__img" width="46" height="46" title="TypeScript" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/>
-        <img class="skills__img" width="46" height="46" title="React" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/>
-        <img class="skills__img" width="46" height="46" title="Redux" alt="Redux" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"/>
-        <img class="skills__img" width="46" height="46" title="Supabase" alt="Supabase" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg"/>
-        <img class="skills__img" width="46" height="46" title="Git" alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
+        <Image class="skills__img" width="46" height="46" title="CSS" alt="CSS" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/>
+        <Image class="skills__img" width="46" height="46" title="HTML"  alt="HTML" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/>
+        <Image class="skills__img" width="46" height="46" title="JavaScript" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
+        <Image class="skills__img" width="46" height="46" title="TypeScript" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/>
+        <Image class="skills__img" width="46" height="46" title="React" alt="React" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"/>
+        <Image class="skills__img" width="46" height="46" title="Redux" alt="Redux" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg"/>
+        <Image class="skills__img" width="46" height="46" title="Supabase" alt="Supabase" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg"/>
+        <Image class="skills__img" width="46" height="46" title="Git" alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"/>
     </div>
     <h2>Currently Learning & Reading</h2>
     <ul class="badge__list">
