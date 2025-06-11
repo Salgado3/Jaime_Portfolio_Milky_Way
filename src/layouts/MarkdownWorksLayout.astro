@@ -1,36 +1,64 @@
 ---
-import BaseLayout from './Layout.astro';
+import BaseLayout from "./Layout.astro";
 const { frontmatter } = Astro.props;
 ---
-<BaseLayout pageTitle={frontmatter.title}>
-    <h2>{frontmatter.title}</h2>
-    <slot />
-    <ul class="badge__list">
-        <li><span class="badge badge--item">PLATFORM</span>{frontmatter.platform}</li>
-        <li><span class="badge badge--item">STACK</span>{frontmatter.stack}</li>
-        <li><span class="badge badge--item">WEBSITE</span><a class="badge__link" href={frontmatter.website} target="_blank">{frontmatter.website}</a></li>
-        {frontmatter.github?.url && (
-            <li>
-              <span class="badge badge--item">GITHUB</span>
-              <a class="badge__link" href={frontmatter.github.url} target="_blank">
-                {frontmatter.github.label}
-              </a>
-            </li>
-          )}
-          
-          {frontmatter.chrome?.url && (
-            <li>
-              <span class="badge badge--item">CHROME</span>
-              <a class="badge__link" href={frontmatter.chrome.url} target="_blank">
-                {frontmatter.chrome.label}
-              </a>
-            </li>
-          )}
-          
-    </ul>
-    <div class="center">
-        <img class="pro-img" width={!frontmatter.worksImage1.url.includes("/taterV2.png")  ? "500px" : "300px"} height="281" src={frontmatter.worksImage1.url} alt={frontmatter.worksImage1.alt} />
-       {frontmatter?.worksImage2?.url &&  <img class="pro-img" width="500px" height="281" src={frontmatter.worksImage2.url} alt={frontmatter.worksImage2.alt} />}
-    </div>
-</BaseLayout>
 
+<BaseLayout pageTitle={frontmatter.title}>
+  <h2>{frontmatter.title}</h2>
+  <slot />
+  <ul class="badge__list">
+    <li>
+      <span class="badge badge--item">PLATFORM</span>{frontmatter.platform}
+    </li>
+    <li><span class="badge badge--item">STACK</span>{frontmatter.stack}</li>
+    <li>
+      <span class="badge badge--item">WEBSITE</span><a
+        class="badge__link"
+        href={frontmatter.website}
+        target="_blank">{frontmatter.website}</a>
+    </li>
+    {
+      frontmatter.github?.url && (
+        <li>
+          <span class="badge badge--item">GITHUB</span>
+          <a class="badge__link" href={frontmatter.github.url} target="_blank">
+            {frontmatter.github.label}
+          </a>
+        </li>
+      )
+    }
+
+    {
+      frontmatter.chrome?.url && (
+        <li>
+          <span class="badge badge--item">CHROME</span>
+          <a class="badge__link" href={frontmatter.chrome.url} target="_blank">
+            {frontmatter.chrome.label}
+          </a>
+        </li>
+      )
+    }
+  </ul>
+  <div class="center">
+    <img
+      class="pro-img"
+      width={!frontmatter.worksImage1.url.includes("/taterV2.png")
+        ? "500px"
+        : "300px"}
+      height="281"
+      src={frontmatter.worksImage1.url}
+      alt={frontmatter.worksImage1.alt}
+    />
+    {
+      frontmatter?.worksImage2?.url && (
+        <img
+          class="pro-img"
+          width="500px"
+          height="281"
+          src={frontmatter.worksImage2.url}
+          alt={frontmatter.worksImage2.alt}
+        />
+      )
+    }
+  </div>
+</BaseLayout>

@@ -194,7 +194,9 @@ li {
   color: var(--text);
   font: 600 16px var(--body);
   padding: 8px 16px;
-  transition: background-color 0.4s, color 0.4s;
+  transition:
+    background-color 0.4s,
+    color 0.4s;
 }
 
 .btn:hover {
