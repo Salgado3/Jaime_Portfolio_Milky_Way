@@ -1,15 +1,18 @@
 ---
-title: "Freelance (WIP)"
-description: "Pending Contract 🙇🏽‍♂️"
+title: "Taterjots V2"
+description: "Work in progess. Coming in 2025"
 image:
-  url: "/laptop.jpg"
-  alt: "picture of a laptop and notebook with a pen"
+  url: "/tjV2.png"
+  alt: "Tater Jots alternate logo"
 worksImage1:
-  url: "/laptop.jpg"
+  url: "/taterV2.png"
+  alt: "first image of your project."
+worksImage2:
+  url: ""
   alt: ""
 platform: Web
-stack: Astro, JavaScript
-website: N/A
+stack: WXT, React, mantine, javascript, supabase, elbow grease
+website: https://www.taterjots.com/ (V2 WIP)
 ---
 
-~~This project fell through~~. Annnnd we are back. New project in the works 👍. I'll keep this page up though. Freelancing is a difficult endeavor.
+Rebuild of Taterjots. Adding new features to already existing list including external database, user setting customizations, quick notes leveraging video transcripts, and more. (I took some time off to prep for interviews, but should be back it this... most of the time)

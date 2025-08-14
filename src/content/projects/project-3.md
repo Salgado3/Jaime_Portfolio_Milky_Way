@@ -1,18 +1,24 @@
 ---
-title: "Taterjots V2"
-description: "Work in progess. Coming in 2025"
+title: "Querido Pueblos"
+description: "Discover unknown towns. Inspire your next travel plans. Find things to do."
 image:
-  url: "/tjV2.png"
-  alt: "Tater Jots alternate logo"
+  url: "/axoltlPlane.png"
+  alt: "axoltl flying a plane and holding a suitcase"
 worksImage1:
-  url: "/taterV2.png"
+  url: "/axoltlPlane.gif"
   alt: "first image of your project."
 worksImage2:
-  url: ""
+  url: "/queridoPueblo.png"
   alt: ""
 platform: Web
-stack: WXT, React, mantine, javascript, supabase, elbow grease
-website: https://www.taterjots.com/ (V2 WIP)
+stack: next.js, supabase, cloudinary, Typescript, React.
+website: https://github.com/Salgado3/Pueblos_next_js
 ---
 
-Rebuild of Taterjots. Adding new features to already existing list including external database, user setting customizations, quick notes leveraging video transcripts, and more. (I took some time off to prep for interviews, but should be back it this... most of the time)
+Every place tells a story. Whether it&apos;s found in cobblestone streets, the endless alleys, the
+homemade food and winding markets or the people hanging out in the town
+square. My hope is that this site will inspire you to plan that trip
+you&apos;ve been holding off on, pack your bags, and add the next
+chapter to your story...
+
+WIP, domain bought. currently setting up SMTP. Check out the github in the meantime.
