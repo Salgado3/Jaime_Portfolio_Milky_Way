@@ -11,8 +11,8 @@ worksImage2:
   url: "/queridoPueblo.png"
   alt: ""
 platform: Web
-stack: next.js, supabase, cloudinary, Typescript, React.
-website: https://github.com/Salgado3/Pueblos_next_js
+stack: next.js, supabase, cloudinary, Typescript, React, cloudflare, tanstack query
+website: https://queridopueblo.net
 ---
 
 Every place tells a story. Whether it&apos;s found in cobblestone streets, the endless alleys, the
