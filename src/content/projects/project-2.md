@@ -6,10 +6,10 @@ image:
   alt: "axoltl flying a plane and holding a suitcase"
 worksImage1:
   url: "/axoltlPlane.gif"
-  alt: "first image of your project."
+  alt: "loading screen showing axoltl on plane."
 worksImage2:
-  url: "/queridoPueblo.png"
-  alt: ""
+  url: "/queridoPueblo_map.png"
+  alt: "View of the interface of querido pueblos website. showing a map of Mexico and navigation bar on the left"
 platform: Web
 stack: next.js, supabase, cloudinary, Typescript, React, cloudflare, tanstack query
 website: https://queridopueblo.net

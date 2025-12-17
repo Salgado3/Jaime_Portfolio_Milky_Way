@@ -1,18 +1,19 @@
 ---
-title: "Taterjots V2"
-description: "Work in progess. Coming in 2025"
+title: "Hanki Anki Helper"
+description: "Hanki Anki is a Chrome extension that allows users to draft up notes effortlessly before adding to their anki deck. Notes first. Cards later."
 image:
-  url: "/tjV2.png"
-  alt: "Tater Jots alternate logo"
+  url: "/hanki_smile.png"
+  alt: "a blue star, named Hanki, smiling"
 worksImage1:
-  url: "/taterV2.png"
-  alt: "first image of your project."
+  url: "/hanki_sidebar_ui.png"
+  alt: "Unordered list of deck names showing draft user interface"
 worksImage2:
-  url: ""
-  alt: ""
-platform: Web
-stack: WXT, React, mantine, javascript, supabase, elbow grease
-website: https://www.taterjots.com/ (V2 WIP)
+  url: "/hanki_sidebar_ui2.png"
+  alt: "User interface showing heatmap of days reviewed"
+platform: Web (Chrome Extension)
+stack: React, Typescript, Motion animation, Chrome Storage API. Anki Connect
+website: (WIP) Releasing late December 2025
 ---
 
-Rebuild of Taterjots. Adding new features to already existing list including external database, user setting customizations, quick notes leveraging video transcripts, and more. (I took some time off to prep for interviews, but should be back it this... most of the time)
+[Anki](https://apps.ankiweb.net/) is
+a powerful, free flashcard application that uses spaced repetition (SRS) and active recall to help you efficiently memorize large amounts of information. Hanki Anki reduces the friction from making flashcards by providing an in-browser experience with quick add features and staging area to edit cards before adding to Anki. Draft freely. Learn deeply.

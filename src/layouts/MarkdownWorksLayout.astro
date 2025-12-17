@@ -15,7 +15,8 @@ const { frontmatter } = Astro.props;
       <span class="badge badge--item">WEBSITE</span><a
         class="badge__link"
         href={frontmatter.website}
-        target="_blank">{frontmatter.website}</a>
+        target="_blank">{frontmatter.website}</a
+      >
     </li>
     {
       frontmatter.github?.url && (
@@ -43,7 +44,7 @@ const { frontmatter } = Astro.props;
     <img
       class="pro-img"
       width={!frontmatter.worksImage1.url.includes("/taterV2.png")
-        ? "500px"
+        ? "450px"
         : "300px"}
       height="281"
       src={frontmatter.worksImage1.url}
@@ -53,7 +54,7 @@ const { frontmatter } = Astro.props;
       frontmatter?.worksImage2?.url && (
         <img
           class="pro-img"
-          width="500px"
+          width="450px"
           height="281"
           src={frontmatter.worksImage2.url}
           alt={frontmatter.worksImage2.alt}
@@ -61,4 +62,5 @@ const { frontmatter } = Astro.props;
       )
     }
   </div>
+  
 </BaseLayout>
