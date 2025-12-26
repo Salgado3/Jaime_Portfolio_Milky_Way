@@ -141,10 +141,15 @@ li {
 /* Cards */
 .card {
   list-style: none;
+  opacity: 0.9;
   display: flex;
   padding: 20px;
   border: 2px solid var(--underline);
   border-radius: 25px;
+}
+
+.card:hover {
+  opacity: 1;
 }
 
 .card__link {
@@ -177,13 +182,13 @@ li {
   margin: 0.5rem 0 0;
 }
 
-.card__link:hover {
-  transform: scale(1.05);
-}
+/* .card__link:hover {
+  border: 2px solid red;
+} */
 
 .link-card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(40ch, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
   gap: 1rem;
   padding: 0;
 }
