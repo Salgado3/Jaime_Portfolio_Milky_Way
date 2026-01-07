@@ -5,14 +5,18 @@ image:
   url: "/hanki_smile.png"
   alt: "a blue star, named Hanki, smiling"
 worksImage1:
-  url: "/hanki_sidebar_ui.png"
+  url: "/hanki_440.png"
   alt: "Unordered list of deck names showing draft user interface"
 worksImage2:
-  url: "/hanki_sidebar_ui2.png"
+  url: "/hanki_screenshot.png"
   alt: "User interface showing heatmap of days reviewed"
 platform: Web (Chrome Extension)
 stack: React, Typescript, Motion animation, Chrome Storage API. Anki Connect
-website: (WIP) Releasing late December 2025
+website: https://www.hankihelper.com/
+
+chrome:
+  label: View on Chrome
+  url: https://chromewebstore.google.com/detail/hanki-anki-helper-draft-n/dgpdijnffcgpleejkaamgigdngdbodok?authuser=0
 ---
 
 [Anki](https://apps.ankiweb.net/) is
