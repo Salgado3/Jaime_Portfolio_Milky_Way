@@ -161,9 +161,10 @@ li {
 
 .card__img {
   border-radius: 16px;
-
-  max-width: 200px;
+  width: 200px;
+  height: 160px;
   padding: 0.5rem;
+  border: 1px solid aliceblue;
 }
 
 .card__title {
